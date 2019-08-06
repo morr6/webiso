@@ -1,0 +1,197 @@
+.body {
+  margin: 0;
+  padding: 0;
+}
+
+.topLine {
+  height: 10px;
+  background: #2ecc71;
+}
+
+.header {
+  margin: 0;
+  padding-top: 5%;
+  background: url("./assets/images/headerImage.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.handImage {
+  margin-left: 150px;
+}
+
+.logo {
+  width: 183px;
+  height: 83px;
+  margin-bottom: 20px;
+}
+
+.headerText {
+  color: #ffffff;
+  font-size: 22;
+  font-weight: 500;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.icon {
+  margin: 20px 20px 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  height: 50px;
+  width: 50px;
+  background: rgba(3,3,3,.5); 
+  transition: 1s;
+  cursor: pointer;
+}
+
+.icon:hover {
+  background: #2ecc71;
+}
+
+i.fab {
+  font-size: 27px;
+  color: #ffffff;
+}
+
+.benefitsWrapper {
+  padding: 5% 10%;
+}
+
+.benefitsWrapper img {
+  width: 30%; 
+}
+
+.benefitsWrapper span {
+  color: #848484;
+}
+
+.benefitsWrapper p {
+  margin: 30px 0;
+  font-size: 23px;
+  font-weight: 600;
+}
+
+.getNotifiedWrapper {
+  background: #e3e3e3;
+  padding: 5% 10%;    
+}
+
+.getNotifiedWrapper span {
+  color: #848484;
+  margin: 30px 0;
+}
+
+.getNotifiedWrapper iframe {
+  border-radius: 15px;    
+}
+
+.sendEmailWrapper {
+  width: 70%;
+  height: 50px;
+  display: flex;
+}
+
+.emailInput {
+  width: 70%;
+  height: 55px;
+  border: 1px solid #bebebe;
+  border-right: none; 
+  outline: none;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  padding-left: 20px;  
+  color: #a5a5a5;
+}
+
+.emailButton {
+  height: 55px;
+  width: 30%;
+  background: #2ecc71;
+  border: 2px solid #2ecc71;
+  color: white;
+  font-size: 20;
+  font-weight: 500;
+  border: none;
+  outline: none;  
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.emailButton:focus {
+  outline:0;
+}
+
+.testimonials  {
+  padding: 3% 0;
+  text-align: center;
+}
+
+.testimonialsText {
+  color: #848484;
+  font-size: 17;
+  padding: 1% 30%;
+  font-style: italic;
+}
+
+.members {
+  position: relative;
+}
+
+.memberName {
+  font-size: 20;
+  font-weight: 600;
+}
+
+.membersImages {
+  margin: 25px 0 50px 0; 
+}
+
+.membersImages img {
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+}
+
+.getInTouch i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 5px;
+  font-size: 20;
+  background: #c5c5c5;
+  width: 35px;
+  height: 35px;
+  border-radius: 50px;
+  transition: .7s;
+}
+
+.getInTouch i:hover {
+  background: #2ecc71;
+  color: white;
+  cursor: pointer;
+}
+
+.sayHi {
+  font-size: 25;
+  font-weight: 500;
+  color: #000000;
+}
+
+.socialText {
+  margin: 15px 0;
+}
+
+footer {
+  background: #e3e3e3;
+}
+
+footer div {
+  cursor: pointer;
+  color: #848484;
+}
+
+.footerButtons {
+  padding: 50px 0;
+}
